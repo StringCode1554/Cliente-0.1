@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Aora Cucina"
+version = "1.0.0"
+id = "artifacts/aora-cucina"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19811
+
+[services.development]
+run = "pnpm --filter @workspace/aora-cucina run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/aora-cucina", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/aora-cucina/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19811"
+BASE_PATH = "/"
