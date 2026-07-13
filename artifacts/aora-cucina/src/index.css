@@ -71,90 +71,90 @@
   --app-font-sans: 'Inter', sans-serif;
   --app-font-serif: 'Playfair Display', Georgia, serif;
   --app-font-mono: Menlo, monospace;
-  --radius: 0.5rem;
+  /* Increased global radius for rounder feel */
+  --radius: 1rem;
 
-  /* Default to dark, warm elegant theme */
-  --background: 25 20% 6%;
-  --foreground: 35 30% 92%;
-  
-  --card: 25 15% 10%;
-  --card-foreground: 35 30% 92%;
-  --card-border: 42 30% 20%;
-  
-  --popover: 25 20% 8%;
-  --popover-foreground: 35 30% 92%;
-  --popover-border: 42 30% 20%;
-  
-  --primary: 42 60% 55%;
-  --primary-foreground: 25 20% 6%;
-  
-  --secondary: 25 15% 15%;
-  --secondary-foreground: 35 30% 92%;
-  
-  --muted: 25 15% 15%;
-  --muted-foreground: 35 15% 70%;
-  
-  --accent: 42 60% 55%;
-  --accent-foreground: 25 20% 6%;
-  
+  /* Dark, warm elegant theme */
+  --background: 22 18% 6%;
+  --foreground: 35 28% 91%;
+
+  --card: 24 14% 10%;
+  --card-foreground: 35 28% 91%;
+  --card-border: 42 28% 18%;
+
+  --popover: 22 18% 8%;
+  --popover-foreground: 35 28% 91%;
+  --popover-border: 42 28% 18%;
+
+  --primary: 42 62% 56%;
+  --primary-foreground: 22 18% 6%;
+
+  --secondary: 24 14% 14%;
+  --secondary-foreground: 35 28% 91%;
+
+  --muted: 24 14% 14%;
+  --muted-foreground: 35 14% 65%;
+
+  --accent: 42 62% 56%;
+  --accent-foreground: 22 18% 6%;
+
   --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 35 30% 92%;
-  
-  --border: 42 20% 20%;
-  --input: 42 20% 20%;
-  --ring: 42 60% 55%;
-  
-  --sidebar: 25 20% 6%;
-  --sidebar-foreground: 35 30% 92%;
-  --sidebar-border: 42 30% 20%;
-  --sidebar-primary: 42 60% 55%;
-  --sidebar-primary-foreground: 25 20% 6%;
-  --sidebar-accent: 25 15% 15%;
-  --sidebar-accent-foreground: 35 30% 92%;
-  --sidebar-ring: 42 60% 55%;
+  --destructive-foreground: 35 28% 91%;
 
-  --chart-1: 42 60% 55%;
+  --border: 42 18% 18%;
+  --input: 42 18% 18%;
+  --ring: 42 62% 56%;
+
+  --sidebar: 22 18% 6%;
+  --sidebar-foreground: 35 28% 91%;
+  --sidebar-border: 42 28% 18%;
+  --sidebar-primary: 42 62% 56%;
+  --sidebar-primary-foreground: 22 18% 6%;
+  --sidebar-accent: 24 14% 14%;
+  --sidebar-accent-foreground: 35 28% 91%;
+  --sidebar-ring: 42 62% 56%;
+
+  --chart-1: 42 62% 56%;
   --chart-2: 25 30% 40%;
   --chart-3: 15 40% 50%;
   --chart-4: 35 50% 60%;
   --chart-5: 45 40% 45%;
 
-  /* Subtle shadow for dark theme */
-  --shadow-sm: 0px 1px 2px 0px rgba(0,0,0,0.5);
-  --shadow: 0px 4px 12px 0px rgba(0,0,0,0.5);
-  --shadow-md: 0px 8px 24px 0px rgba(0,0,0,0.5);
-  --shadow-lg: 0px 16px 32px 0px rgba(0,0,0,0.5);
-  --shadow-xl: 0px 24px 48px 0px rgba(0,0,0,0.5);
+  --shadow-sm: 0px 1px 2px 0px rgba(0,0,0,0.55);
+  --shadow: 0px 4px 12px 0px rgba(0,0,0,0.55);
+  --shadow-md: 0px 8px 24px 0px rgba(0,0,0,0.55);
+  --shadow-lg: 0px 16px 32px 0px rgba(0,0,0,0.55);
+  --shadow-xl: 0px 24px 48px 0px rgba(0,0,0,0.55);
 }
 
 .dark {
-  /* Enforce the same dark theme for .dark class just in case */
-  --background: 25 20% 6%;
-  --foreground: 35 30% 92%;
-  --card: 25 15% 10%;
-  --card-foreground: 35 30% 92%;
-  --card-border: 42 30% 20%;
-  --popover: 25 20% 8%;
-  --popover-foreground: 35 30% 92%;
-  --popover-border: 42 30% 20%;
-  --primary: 42 60% 55%;
-  --primary-foreground: 25 20% 6%;
-  --secondary: 25 15% 15%;
-  --secondary-foreground: 35 30% 92%;
-  --muted: 25 15% 15%;
-  --muted-foreground: 35 15% 70%;
-  --accent: 42 60% 55%;
-  --accent-foreground: 25 20% 6%;
+  --background: 22 18% 6%;
+  --foreground: 35 28% 91%;
+  --card: 24 14% 10%;
+  --card-foreground: 35 28% 91%;
+  --card-border: 42 28% 18%;
+  --popover: 22 18% 8%;
+  --popover-foreground: 35 28% 91%;
+  --popover-border: 42 28% 18%;
+  --primary: 42 62% 56%;
+  --primary-foreground: 22 18% 6%;
+  --secondary: 24 14% 14%;
+  --secondary-foreground: 35 28% 91%;
+  --muted: 24 14% 14%;
+  --muted-foreground: 35 14% 65%;
+  --accent: 42 62% 56%;
+  --accent-foreground: 22 18% 6%;
   --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 35 30% 92%;
-  --border: 42 20% 20%;
-  --input: 42 20% 20%;
-  --ring: 42 60% 55%;
+  --destructive-foreground: 35 28% 91%;
+  --border: 42 18% 18%;
+  --input: 42 18% 18%;
+  --ring: 42 62% 56%;
 }
 
 @layer base {
   * {
     @apply border-border;
+    scroll-behavior: smooth;
   }
 
   body {
@@ -166,34 +166,41 @@
   }
 }
 
-/* Utilities for glass effect and images */
 @layer utilities {
+  /* Glass card — now with rounded-2xl baked in */
   .glass-card {
-    background: linear-gradient(145deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    background: linear-gradient(145deg, rgba(255,255,255,0.035) 0%, rgba(255,255,255,0.01) 100%);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.07);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.35);
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
   }
-  
+
   .glass-card:hover {
-    background: linear-gradient(145deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
-    border: 1px solid rgba(212, 175, 55, 0.2); /* Subtle gold border on hover */
-    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.4), 0 0 20px 0 rgba(212, 175, 55, 0.05);
-    transform: translateY(-4px);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background: linear-gradient(145deg, rgba(255,255,255,0.055) 0%, rgba(255,255,255,0.02) 100%);
+    border-color: rgba(212,175,55,0.18);
+    box-shadow: 0 16px 48px 0 rgba(0,0,0,0.45), 0 0 24px 0 rgba(212,175,55,0.06);
   }
 
   .text-glow {
-    text-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+    text-shadow: 0 0 30px rgba(212,175,55,0.25), 0 0 60px rgba(212,175,55,0.1);
   }
 
-  /* Hide scrollbar for gallery but keep functionality */
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
   }
-  .no-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(212,175,55,0.25);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(212,175,55,0.45);
   }
 }
